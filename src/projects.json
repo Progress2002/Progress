@@ -3,7 +3,7 @@
     {
       "title": "LuxoPremier",
       "description": "LuxoPremier is a website that displays Tv-shows from a rest api. Users can like, and comment on their favorite Tv-shows and can get the details about a particular show, it also has a search feature that allows users to search for a show.",
-      "img": "./images/LuxoPremier.png",
+      "img": "/static/media/LuxoPremier.png",
       "technologies": ["HTML", "CSS", "JavaScript", "Webpack", "REST API", "Jest"],
       "links": {
         "live": "https://progress2002.github.io/LuxoPremier/dist/",
@@ -13,7 +13,7 @@
     {
       "title": "Space Tourism",
       "description": "Experience the marvel of space exploration with Space Tourism, a stunning website meticulously crafted using ReactJS. Immerse yourself in a seamless navigation experience, where you can effortlessly journey between pages and explore an array of captivating space destinations. Meet the intrepid space crew and brilliant engineers who make these voyages possible. Embark on an extraordinary virtual space odyssey like never before.",
-      "img": "./images/space-tourism.png",
+      "img": "/static/media/space-tourism.png",
       "technologies": ["React", "CSS3", "TailwindCSS"],
       "links": {
         "live": "https://space-tourism-lozc.onrender.com/",
@@ -23,7 +23,7 @@
     {
       "title": "🌏 Countries",
       "description": "In this web application, users are able to see all the countries in the world on the homepage, filter countries by region, click on a country to see more information, and search for a country.",
-      "img": "./images/countries.png",
+      "img": "/static/media/countries.png",
       "technologies": ["React/Redux", "CSS3", "HTML5"],
       "links": {
         "live": "https://countires.onrender.com/",
@@ -33,7 +33,7 @@
     {
       "title": "Multi-step form",
       "description": "This is a solution to the Multi-step form challenge on Frontend Mentor. It verifies users' input and grants them access to a new form page where they could purchase different plans, after which they are provided with a summary of all their selections and could confirm the purchase or make changes.",
-      "img": "./images/multi-step form.png",
+      "img": "/static/media/multi-step form.png",
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "links": {
         "live": "https://progress2002.github.io/Multi-step-form-/",
@@ -43,7 +43,7 @@
     {
       "title": "Keeper",
       "description": "This is a React application that allows users to add new notes by providing the title and text of the note. It also displays the date and time at which the note was taken.",
-      "img": "./images/Keeper.png",
+      "img": "/static/media/Keeper.png",
       "technologies": ["React", "CSS3", "JavaScript"],
       "links": {
         "live": "https://keeper-v8lq.onrender.com/",
@@ -53,7 +53,7 @@
     {
       "title": "To-Do App",
       "description": "The React.js Todo App is a user-friendly task management tool designed to streamline your daily tasks. With an intuitive interface and dynamic features, it enables users to effortlessly add, edit, and mark tasks as complete. The app's responsive design ensures seamless usability across devices, while its powerful React foundation ensures fast and efficient performance. Stay organized and boost productivity with the React.js Todo App.",
-      "img": "./images/img (2).png",
+      "img": "/static/media/todo-app.png",
       "technologies": ["React", "CSS", "JavaScript", "ReduxToolkit"],
       "links": {
         "live": "https://todo-app-qjve.onrender.com/",
@@ -63,7 +63,7 @@
     {
       "title": "Easybank landing page",
       "description": "This is a solution to the Easybank landing page challenge on Frontend Mentor Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
-      "img": "./images/easybank.png",
+      "img": "/static/media/easybank.png",
       "technologies": ["React", "Tailwind CSS", "React-reveal", "JavaScript"],
       "links": {
         "live": "https://easybank-spt9.onrender.com/",
