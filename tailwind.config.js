@@ -12,7 +12,10 @@ module.exports = {
     },
     colors: {
       'pr-color': 'hsla(0,0%,83%,.6)',
-      'sc-color': '#ff6b00'
+      'sc-color': '#ff6b00',
+      'white': '#fff',
+      'gray': 'gray',
+      'black': '#000'
     }
   },
   plugins: [],
