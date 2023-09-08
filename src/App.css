@@ -1,9 +1,18 @@
-* {
-  color: gray;
-}
+
 
 body {
   background: #1c1a19 url('https://xeuxdev.vercel.app/bg-hero.webp') no-repeat center/cover;
   /* background-color: #1c1a19; */
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.mobile-nav {
+  /* right: -100%; */
+  transition: all 0.4s ease;
+}
+
+.mobile-nav.active {
+  /* right: 0%; */
 }
 
