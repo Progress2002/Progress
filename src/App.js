@@ -14,7 +14,7 @@ function App() {
   const isActiveRoute = (route) => location.pathname === route;
   return (
     <>
-      <div className='relative bg-sc-color flex justify-end'>
+      <div className='relative bg-sc-color h-20'>
         <DesktopNav isActiveRoute={isActiveRoute} isActive={isActive} setIsActive={setIsActive} />
         <MobileNav isActiveRoute={isActiveRoute} isActive={isActive} setIsActive={setIsActive} />
       </div>

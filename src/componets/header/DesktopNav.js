@@ -5,8 +5,8 @@ import { FaBarsStaggered } from "react-icons/fa6";
 
 const DesktopNav = ({ isActiveRoute, isActive, setIsActive }) => {
   return (
-    <div>
-      <ul className="hidden md:block">
+    <div className="bg-body text-white shadow-xl fixed -top-1 w-full flex justify-end h-16 md:h-20 md:px-20 px-4">
+      <ul className="hidden md:flex gap-7 items-center ">
         <NavItem isActiveRoute={isActiveRoute} path="/" value="Home" />
         <NavItem isActiveRoute={isActiveRoute} path="/about" value="About" />
         <NavItem
@@ -24,7 +24,7 @@ const DesktopNav = ({ isActiveRoute, isActive, setIsActive }) => {
         </li>
       </ul>
       <button
-        className="md:hidden text-2xl duration-300 hover:bg-gray hover:bg-opacity-10 p-3 rounded-full active:bg-opacity-50 "
+        className="md:hidden text-3xl duration-300 active:bg-gray  px-3 rounded-full active:bg-opacity-20 "
         type="button"
         role="toggle mobile navigation"
         onClick={() => setIsActive(!isActive)}>
