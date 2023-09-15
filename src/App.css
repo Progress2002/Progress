@@ -1,24 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
-  background: hsl(217, 18%, 14%) url("https://xeuxdev.vercel.app/bg-hero.webp")
-    no-repeat center/cover;
-  /* background-color: #1c1a19; */
+  background: hsl(217, 18%, 14%) url("https://xeuxdev.vercel.app/bg-hero.webp");
+    /* background-image: url('https://xeuxdev.vercel.app/bg-hero.webp');
+  background-color: hsl(217, 18%, 14%); */
   color: #fff;
   overflow-x: hidden;
   min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
-#nav-item {
-}
-
-/* Define the keyframes for fade-in */
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /* Define the animation for the hover state */
 @keyframes backgroundSlideHover {
@@ -34,7 +25,7 @@ body {
 .bg-animate {
   background-size: 100% 200%;
   background-image: linear-gradient(0deg, #ff6b00 50%, transparent 50%);
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 
 /* Change the background color on hover */
