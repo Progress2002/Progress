@@ -3,10 +3,20 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
 import ContactMe from './pages/ContactMe';
-import DesktopNav from './componets/header/DesktopNav';
-import MobileNav from './componets/header/MobileNav';
+import DesktopNav from './components/header/DesktopNav';
+import MobileNav from './components/header/MobileNav';
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   const [isActive, setIsActive] = useState(false)
@@ -24,6 +34,7 @@ function App() {
         <Route path="/project" element={<Project/>} />
         <Route path="/contactme" element={<ContactMe/>} />
       </Routes>
+      <ScrollToTop />
     </>
   );
 }
