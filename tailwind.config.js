@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       container: {
         center: true,
-        padding: '1rem',
+        padding: '8rem',
       }
     },
     colors: {
@@ -20,8 +20,6 @@ module.exports = {
       text: "hsl(0, 0%, 83%)",
       text_Light: "hsla(0, 0%, 83%, 0.6)",
       buttonBg: "hsl(217, 10%, 25%)",
-      cyan: "hsl(166, 100%, 34%)",
-      cyan_dark: "hsla(166, 100%, 34%, 0.4)",
       veryDark: "hsl(0, 0%, 0%)",
       gray: "hsl(217, 13%, 27%)",
     }
