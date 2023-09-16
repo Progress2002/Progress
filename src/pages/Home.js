@@ -16,7 +16,7 @@ const Home = () => {
           <h1
             className="flex items-center text-text space-x-5 text-3xl
             sm:text-[3.5rem] lg:text-[5rem] md:leading-[1.3] font-bold  ">
-            <span className="w-fit pb-3">Progress</span>
+            <span className="w-fit pb-2">Progress</span>
             <span
               className="text-sc_color relative  before:absolute
                 before:bottom-0 before:w-full before:h-1 md:before:h-2

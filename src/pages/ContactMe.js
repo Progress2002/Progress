@@ -6,7 +6,7 @@ const ContactMe = () => {
   return (
     <div>
       <div className="lg:container pb-16 max-w-4xl xl:max-w-[1000px] px-6 md:px-10 lg:px-0 mx-auto">
-        <section className="pt-11 md:pt-20 lg:pt-24 pb-14">
+        <section className="pt-11 md:pt-20 lg:pt-24 pb-14 mb-12">
           <div className="max-w-xl mx-auto">
           <Fade delay={100} triggerOnce='true'>
             <h2 className="mb-5 text-4xl font-semibold text-center text-sc_color md:text-6xl">
