@@ -5,6 +5,8 @@ import Project from './pages/Project';
 import ContactMe from './pages/ContactMe';
 import DesktopNav from './components/header/DesktopNav';
 import MobileNav from './components/header/MobileNav';
+import MobileFooter from './components/footer/MobileFooter';
+import DesktopFooter from './components/footer/DesktopFooter';
 import './App.css';
 import { useState, useEffect } from 'react';
 
@@ -34,6 +36,8 @@ function App() {
         <Route path="/project" element={<Project/>} />
         <Route path="/contactme" element={<ContactMe/>} />
       </Routes>
+      <MobileFooter />
+      <DesktopFooter />
       <ScrollToTop />
     </>
   );

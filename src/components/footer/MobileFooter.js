@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 
 const MobileFooter = () => {
   return (
-    <footer className='py-3 mt-11 border-gray border-dotted border-t-[2px] w-full md:hidden'>
+    <footer className='py-3 mt-9 border-gray border-dotted border-t-[2px] w-full lg:hidden'>
      <Fade direction='left' cascade={true} duration={300}>
      <ul className='flex gap-8 justify-center text-center'>
         <FooterLink icon={<AiFillGithub />} address="https://github.com/Progress2002" />
