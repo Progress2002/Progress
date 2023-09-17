@@ -22,7 +22,7 @@ const DesktopFooter = () => {
         />
       </ul>
       <div className="flex flex-col fixed bottom-0 right-1 after:h-20 w-28 after:w-[2px] after:mx-auto after:bg-white after:mt-4">
-        <Link className=" duration-200 rotate-90 mb-52 text-base text-text hover:text-sc_color font-pop " to="mailto:ezeamakachisom2002@gmail.com">ezeamakachisom2002@gmail.com</Link>
+        <Link className=" duration-300 rotate-90 mb-52 text-base text-text hover:text-sc_color font-pop " to="mailto:ezeamakachisom2002@gmail.com">ezeamakachisom2002@gmail.com</Link>
       </div>
     </footer>
   );
