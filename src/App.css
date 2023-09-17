@@ -22,14 +22,16 @@ body {
 }
 
 /* Apply the animation to the button */
-.bg-animate {
+.bg-animate,
+.btn {
   background-size: 100% 200%;
   background-image: linear-gradient(0deg, #ff6b00 50%, transparent 50%);
   transition: all 0.3s;
 }
 
 /* Change the background color on hover */
-.bg-animate:hover {
+.bg-animate:hover,
+.btn.active {
   animation: backgroundSlideHover 0.3s ease;
   background-position: 0% 100%;
 }
