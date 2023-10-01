@@ -60,7 +60,7 @@ const Form = () => {
             title={disable && ' Please fill out the form'}
             aria-label="send me the email"
             disabled={disable}
-            className={`w-full h-full duration-300 rounded-md outline-none focus-visible:ring-4 focus-visible:bg-cyan ${disable ? 'bg-text_Light' : 'active '} btn`}
+            className={`w-full h-full duration-500 rounded-md outline-none focus-visible:ring-4 focus-visible:bg-cyan ${disable ? 'bg-text_Light' : 'active '} btn`}
             required>
             Get in touch
           </button>

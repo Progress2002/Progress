@@ -46,6 +46,7 @@ const DesktopNav = ({ isActiveRoute, isActive, setIsActive }) => {
         className=" text-3xl duration-300 active:bg-gray  px-3 rounded-full active:bg-opacity-20 "
         type="button"
         role="toggle mobile navigation"
+        name="menu button"
         onClick={() => setIsActive(!isActive)}>
         <FaBarsStaggered />
       </button>
