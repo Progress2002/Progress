@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const DesktopNav = ({ isActiveRoute, isActive, setIsActive }) => {
   return (
-    <div className="bg-body/80 text-white shadow-xl z-20 fixed -top-1
+    <div className="bg-body/80 text-white shadow-xl z-50 fixed -top-1
      w-full flex justify-between items-center h-16 md:h-20 md:px-20 px-4 backdrop-blur-md">
       <Slide direction="left" triggerOnce="true">
         <div>
