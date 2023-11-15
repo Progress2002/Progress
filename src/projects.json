@@ -12,7 +12,7 @@
     },
     {
       "title": "Space Tourism",
-      "description": "Experience the marvel of space exploration with Space Tourism, a stunning website meticulously crafted using ReactJS. Immerse yourself in a seamless navigation experience, where you can effortlessly journey between pages and explore an array of captivating space destinations. Meet the intrepid space crew and brilliant engineers who make these voyages possible. Embark on an extraordinary virtual space odyssey like never before.",
+      "description": "Experience the marvel of space exploration with Space Tourism, a stunning website meticulously crafted using ReactJS. Immerse yourself in a seamless navigation experience, where you can effortlessly journey between pages and explore an array of captivating space destinations.",
       "img": "/static/media/space-tourism.png",
       "technologies": ["React", "CSS3", "TailwindCSS"],
       "links": {
@@ -24,7 +24,7 @@
       "title": "🌏 Countries",
       "description": "In this web application, users are able to see all the countries in the world on the homepage, filter countries by region, click on a country to see more information, and search for a country.",
       "img": "/static/media/countries.png",
-      "technologies": ["React/Redux", "CSS3", "HTML5"],
+      "technologies": ["React/Redux", "CSS3"],
       "links": {
         "live": "https://countires.onrender.com/",
         "source_code": "https://github.com/Progress2002/Country.git"
@@ -44,7 +44,7 @@
       "title": "Keeper",
       "description": "This is a React application that allows users to add new notes by providing the title and text of the note. It also displays the date and time at which the note was taken.",
       "img": "/static/media/Keeper.png",
-      "technologies": ["React", "CSS3", "JavaScript"],
+      "technologies": ["React", "CSS3"],
       "links": {
         "live": "https://keeper-v8lq.onrender.com/",
         "source_code": "https://github.com/Progress2002/Keeper.git"
@@ -52,9 +52,9 @@
     },
     {
       "title": "To-Do App",
-      "description": "The React.js Todo App is a user-friendly task management tool designed to streamline your daily tasks. With an intuitive interface and dynamic features, it enables users to effortlessly add, edit, and mark tasks as complete. The app's responsive design ensures seamless usability across devices, while its powerful React foundation ensures fast and efficient performance. Stay organized and boost productivity with the React.js Todo App.",
+      "description": "A to-do app with an intuitive interface and dynamic features, it enables users to effortlessly add, edit, and mark tasks as complete. The app's responsive design ensures seamless usability across devices, while its powerful React foundation ensures fast and efficient performance. Stay organized and boost productivity with the React.js Todo App.",
       "img": "/static/media/todo-app.png",
-      "technologies": ["React", "CSS", "JavaScript", "ReduxToolkit"],
+      "technologies": ["ReactJs", "CSS", "ReduxToolkit"],
       "links": {
         "live": "https://todo-app-qjve.onrender.com/",
         "source_code": "https://github.com/Progress2002/Todo-app-v2.git"
@@ -64,7 +64,7 @@
       "title": "Easybank landing page",
       "description": "This is a solution to the Easybank landing page challenge on Frontend Mentor Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
       "img": "/static/media/easybank.png",
-      "technologies": ["React", "Tailwind CSS", "React-reveal", "JavaScript"],
+      "technologies": ["React", "Tailwind CSS", "React-reveal"],
       "links": {
         "live": "https://easybank-spt9.onrender.com/",
         "source_code": "https://github.com/Progress2002/easybank.git"
