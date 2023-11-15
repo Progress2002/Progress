@@ -18,7 +18,7 @@ const About = () => (
             </span>
           </h1>
         </Slide>
-        <div className="flex flex-col gap-9 lg:flex-row xl:justify-between ">
+        <div className="flex flex-col-reverse md:flex-col gap-9 lg:flex-row xl:justify-between ">
           <div className="lg:w-[60%]">
             <Slide direction="up" triggerOnce="true">
               <h2
