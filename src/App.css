@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-  background: hsl(217, 18%, 14%) url("https://xeuxdev.vercel.app/bg-hero.webp");
+  background: hsl(217, 18%, 14%) url("bg-hero.webp");
     /* background-image: url('https://xeuxdev.vercel.app/bg-hero.webp');
   background-color: hsl(217, 18%, 14%); */
   color: #fff;
