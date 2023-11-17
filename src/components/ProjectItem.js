@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { PiGithubLogoDuotone } from "react-icons/pi";
+import { LuArrowUpRightFromCircle } from "react-icons/lu";
 
 const ProjectItem = ({
   index,
@@ -24,8 +26,8 @@ const ProjectItem = ({
       <div className="w-[70%] h-96 relative -z-[2] ">
         <img src={img} className="w-full h-full hover:cursor-pointer" />
         <div
-          className={`h-full w-full absolute delay-100 bg-veryDark bg-opacity-[0.6] ${
-            isFocus && "bg-opacity-[0.3] "
+          className={`h-full w-full absolute delay- bg-veryDark bg-opacity-[0.6] ${
+            isFocus && "hidden"
           } hover:cursor-pointer z-[5] top-0`}></div>
       </div>
       <div className="w-[30%] ">
@@ -55,18 +57,18 @@ const ProjectItem = ({
           <Link
             to={liveURL}
             target="blank"
-            className="flex gap-3 text-center font-bold text-text_Light hover:text-sc_color hover:underline py-2 px-4 lg:px-5">
+            className="flex gap-1 text-center font-bold text-text_Light hover:text-sc_color py-2 px-4 lg:px-5">
             {" "}
-            <span>See live</span>
-            {/* <LuSend className="relative top-[0.08rem] text-[1.3rem]" /> */}
+            <span>See Live</span>
+            <LuArrowUpRightFromCircle className="relative top-[0.08rem] text-[1.3rem]" />
           </Link>
           <Link
             to={sourceCodeURL}
             target="blank"
-            className="flex gap-3 text-center font-bold text-text_Light hover:text-sc_color hover:underline py-2 px-4 lg:px-5">
+            className="flex gap-1 text-center font-bold text-text_Light hover:text-sc_color py-2 px-4 lg:px-5">
             {" "}
             <span>See Source</span>
-            {/* <LuSend className="relative top-[0.08rem] text-[1.3rem]" /> */}
+            <PiGithubLogoDuotone className="relative top-[0.08rem] text-[1.3rem]" />
           </Link>
         </div>
       </div>
