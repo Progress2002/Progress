@@ -32,7 +32,7 @@
     },
     {
       "title": "Multi-step form",
-      "description": "This is a solution to the Multi-step form challenge on Frontend Mentor. It verifies users' input and grants them access to a new form page where they could purchase different plans, after which they are provided with a summary of all their selections and could confirm the purchase or make changes.",
+      "description": "It verifies users' input and grants them access to a new form page where they could purchase different plans, after which they are provided with a summary of all their selections and could confirm the purchase or make changes.",
       "img": "/static/media/multi-step form.png",
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "links": {
@@ -52,7 +52,7 @@
     },
     {
       "title": "To-Do App",
-      "description": "A to-do app with an intuitive interface and dynamic features, it enables users to effortlessly add, edit, and mark tasks as complete. The app's responsive design ensures seamless usability across devices, while its powerful React foundation ensures fast and efficient performance. Stay organized and boost productivity with the React.js Todo App.",
+      "description": "It enables users to effortlessly add, edit, mark tasks as complete, etc. The app's responsive design ensures seamless usability across devices, while its powerful React foundation ensures fast and efficient performance.",
       "img": "/static/media/todo-app.png",
       "technologies": ["ReactJs", "CSS", "ReduxToolkit"],
       "links": {
